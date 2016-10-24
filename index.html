@@ -5,15 +5,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <div>
-        <img src="src/themarmmot.gif" />
+        <img id="marmot" src="src/themarmmot.gif" />
     </div>
-    <div class="marquees">
+    <script type="text/javascript">
+        var img = document.getElementById("marmot");
+        var width = img.clientWidth;
+    </script>
+    <p></p>
+    <div id="marq" class="marquees">
         <p><marquee>hello world!</marquee></p>
     </div>
+    
+    <!--
+    <script> document.getElementById("marq").style.width = width;
+    </script>
+    -->
+    
     <div>
         <body>
             <p>Hey! Welcome to my page!</p>
             <p>Its a work in progress rn, check back later!</p>
         </body>
     </div>
+    <noscript>
+        <p>Please enable javascript on this page!</p>
+    </noscript>
 </html>

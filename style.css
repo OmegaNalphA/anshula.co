@@ -6,7 +6,6 @@ body{
 }
 
 div.marquees{
+    text-align: center;
     color: chartreuse;
-    padding-left: 7em;
-    padding-right: 7em;
 }
