@@ -4,7 +4,7 @@ body {
     background-color: cadetblue;
     text-align: center;
     opacity: 1;
-    transition: 1s opacity;
+    transition: 3s opacity;
 }
 
 body.fade-out {
