@@ -3,6 +3,7 @@ body {
     color: aquamarine;
     background-color: cadetblue;
     text-align: center;
+    padding-top: 3.0vh;
     opacity: 1;
     transition: 3s opacity;
 }
