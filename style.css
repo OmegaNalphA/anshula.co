@@ -1,11 +1,22 @@
-body{
+body {
     font-family: sans-serif;
     color: aquamarine;
-    background-color: darkkhaki;
+    background-color: cadetblue;
     text-align: center;
+    opacity: 1;
+    transition: 1s opacity;
 }
 
-div.marquees{
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+div.marquees {
     text-align: center;
     color: chartreuse;
+}
+
+html {
+    background-color: cadetblue;
 }

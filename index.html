@@ -3,26 +3,27 @@
 <head>
     <title>Anshul Aggarwal</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="firstjs.js"></script>
+    
+    
     <div>
         <img id="marmot" src="src/themarmmot.gif" />
     </div>
-    <script type="text/javascript">
-        var img = document.getElementById("marmot");
-        var width = img.clientWidth;
-    </script>
-    <p></p>
     <div id="marq" class="marquees">
         <p><marquee>hello world!</marquee></p>
     </div>
     
-    <!--
-    <script> document.getElementById("marq").style.width = width;
-    </script>
-    -->
-    
     <div>
         <body>
+            <script type="text/javascript">
+                
+                document.body.className += ' fade-out';
+
+                //window.onload = myFunc;
+            </script>
+            
+      
             <p>Hey! Welcome to my page!</p>
             <p>Its a work in progress rn, check back later!</p>
         </body>
@@ -30,4 +31,5 @@
     <noscript>
         <p>Please enable javascript on this page!</p>
     </noscript>
+    </head>
 </html>
