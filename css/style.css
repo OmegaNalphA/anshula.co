@@ -6,6 +6,9 @@ body {
     padding-top: 3.0vh;
     opacity: 1;
     transition: 3s opacity;
+    background-image: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body.fade-out {
