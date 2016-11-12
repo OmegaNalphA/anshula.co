@@ -31,3 +31,8 @@ div.marquees {
     padding-right: 30.0vh;
     color: chartreuse;
 }
+
+#marmot {
+    width: auto;
+    height: 20%;
+}
