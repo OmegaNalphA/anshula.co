@@ -1,8 +1,8 @@
 body {
     font-family: sans-serif;
-    background-color: cadetblue;
+    background-color: #0f404f;
     text-align: center;
-    color: #A86E73;
+    color: #79867d;
     padding-top: 3.0vh;
     opacity: 1;
     transition: 3s opacity;
