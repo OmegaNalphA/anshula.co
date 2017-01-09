@@ -3,7 +3,7 @@ body {
     background-color: #0f404f;
     text-align: center;
     color: palevioletred;
-    padding-top: 3.0vh;
+    padding-top: 1.0vh;
     opacity: 1;
     transition: 3s opacity;
     background-size: cover;
