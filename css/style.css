@@ -54,3 +54,9 @@ div.marquees {
     left: 50%;
     margin: -100px 0 0 -150px;
 }
+
+.extra {
+  background-color: blue;
+  height: 500px;
+  width: 200px;
+}
